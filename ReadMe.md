@@ -15,7 +15,7 @@ This repository contains 2 notebooks
 The dataset provided has been preprocesssed to match the format expecterd by mask2former for instance segmentation tasks. The provided label images were converted into 3 channel RGB images where the **R(ed)** channel encodes category ID, and the **G(reen)** channel encodes instance ID. Each object instance has a unique instance ID regardless of its category ID.
 **DO NOT** be alarmed if you see a blank mask as the masks are not designed to be human-readable. As there is only one category (leaf) in this dataset with its category id being 1, you may not see anything if there are only a few instances of leaves.
 
-**Example:**
+### Example:
 
 **RGB Image**
 ![Original RGB Image](/Resources/rgb_image.png "RGB Image") 
